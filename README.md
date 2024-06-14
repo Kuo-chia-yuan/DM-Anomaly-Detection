@@ -6,7 +6,7 @@
 
 準確度：97.9%
 
-input(training.csv)：
+training data (training.csv)：
 - lettr: 字母標籤（A到Z）
 - x-box: 矩形框的水平位置（整數）
 - y-box: 矩形框的垂直位置（整數）
@@ -25,6 +25,6 @@ input(training.csv)：
 - y-ege: 底到頂的邊緣計數均值（整數）
 - yegvx: y-ege與x的相關性（整數）
 
-測試數據（test_X.csv）：
+testing data（test_X.csv）：
 - 列名：與訓練數據相同，但不包含字母標籤
 - 數據特徵：包含600個來自訓練集中6個字母的樣本，另外再隨機加入400個其他字母的樣本，共1000個樣本
