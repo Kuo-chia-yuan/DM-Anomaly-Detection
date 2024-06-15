@@ -4,7 +4,7 @@
 
 模型：KNN
 
-準確度：97.9%
+準確度：99.6%
 
 training data (training.csv)：
 - lettr: 字母標籤（A到Z）
